@@ -3,7 +3,7 @@
     "require": {
         "php": "^8.2",
         "laravel/framework": "^10.0",
-        "laravel/ui": "^4.0",
+        "laravel/ui": "^4.0", 
         "laravel/sanctum": "^3.3",
         "laravel/tinker": "^2.8"
     },
