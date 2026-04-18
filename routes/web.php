@@ -15,7 +15,7 @@ Route::get('/', function () {
 });
 
 // Laravel Breeze / Fortify handles auth routes (login, logout)
-Auth::routes(['register' => false]); // registration disabled — admin creates accounts
+Route::get('/login', [\App\Http\Controllers\Auth\LoginController::class, 'showLoginForm'])->name('login'); Route::post('/login', [\App\Http\Controllers\Auth\LoginController::class, 'login']); Route::post('/logout', [\App\Http\Controllers\Auth\LoginController::class, 'logout'])->name('logout'); // registration disabled — admin creates accounts
 
 Route::middleware('auth')->group(function () {
 
