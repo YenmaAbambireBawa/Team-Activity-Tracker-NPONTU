@@ -1,12 +1,12 @@
 {
-    "name": "yourname/teamtracker",
+    "name": "yenma/teamtracker",
     "require": {
-    "php": "^8.2",
-    "laravel/framework": "^10.0",
-    "laravel/ui": "^4.0",
-    "laravel/sanctum": "^3.3",
-    "laravel/tinker": "^2.8"
-},
+        "php": "^8.2",
+        "laravel/framework": "^10.0",
+        "laravel/ui": "^4.0",
+        "laravel/sanctum": "^3.3",
+        "laravel/tinker": "^2.8"
+    },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",
         "laravel/pint": "^1.0",
