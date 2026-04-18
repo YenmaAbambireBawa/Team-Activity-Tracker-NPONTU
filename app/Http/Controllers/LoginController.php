@@ -1,3 +1,4 @@
+
 <?php
 
 namespace App\Http\Controllers\Auth;
@@ -9,7 +10,8 @@ class LoginController extends Controller
 {
     use AuthenticatesUsers;
 
-    protected $redirectTo = '/daily';
+    // temporarily redirect to home to avoid crashes from a broken /daily route
+    protected $redirectTo = '/';
 
     public function __construct()
     {
